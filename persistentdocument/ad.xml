@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document xmlns="http://www.rbs.fr/schema/change-document/1.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.rbs.fr/schema/change-document/1.0 http://www.rbschange.fr/static/schema/change-document/1.0.xsd"
+	model-version="1.0" icon="text_marked">
+	<properties>
+		<add name="code" type="String" min-occurs="1">
+			<constraints>unique:true;matches:^[^ ]*$#modules.adsense.bo.general.InvalidCode</constraints>
+		</add>
+		<add name="script" type="LongString" min-occurs="1" />
+	</properties>
+
+	<statuses default="PUBLICATED" />
+
+	<form>
+		<property name="script" />
+	</form>
+</document>

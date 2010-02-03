@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datasources>
+  <datasource name="pagecontent" treecomponents="modules_generic/folder" listcomponents="modules_adsense/ad"/>
+</datasources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<localization>
+	<entity id="module-name">
+		<locale lang="fr">Google AdSense</locale>
+		<locale lang="en">Google AdSense</locale>
+	</entity>
+
+	<entity id="tree-root-name">
+		<locale lang="fr">Google AdSense</locale>
+		<locale lang="en">Google AdSense</locale>
+	</entity>
+
+	<entity id="system-folder-name">
+		<locale lang="fr">Google AdSense</locale>
+		<locale lang="en">Google AdSense</locale>
+	</entity>
+	
+	<entity id="invalidCode">
+		<locale lang="fr">l'identifiant ne peut pas contenir d'espaces!</locale>
+		<locale lang="en">the code can not contain any whitespace!</locale>
+	</entity>
+
+</localization>
