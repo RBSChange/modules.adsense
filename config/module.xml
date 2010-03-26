@@ -3,7 +3,7 @@
 	<module>
 		<enabled>true</enabled>
 		<visible>true</visible>
-		<icon>text_marked</icon>
+		<icon>category</icon>
 		<usetopic>false</usetopic>
 	</module>
 </config>

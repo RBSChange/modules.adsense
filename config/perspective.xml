@@ -7,7 +7,10 @@
 				<child model="modules_adsense/ad" />
 			</children>
 			<contextactions>
-				<contextaction name="createFolder" />
+				<groupactions name="create_">
+					<contextaction name="createFolder" />
+					<contextaction name="createAd" />
+				</groupactions>
 				<contextaction name="edit" />
 			</contextactions>
 		</model>
@@ -36,15 +39,14 @@
 	<toolbar>
 		<toolbarbutton name="edit" />
 		<toolbarbutton name="delete" />
-		<toolbarbutton name="createFolder" />
 	</toolbar>
 	
 	<actions>
 		<action name="create_" single="true" actions="createFolder,createAd" icon="add"/>
 		<action name="createAd" permission="Insert_ad" single="true" label="&amp;modules.adsense.bo.actions.Create-Ad;" />
 		<action name="createFolder" permission="Insert_folder" single="true" icon="create-folder" label="&amp;modules.uixul.bo.actions.Create-folder;" />
-		<action name="edit" single="true" permission="Load" icon="document_edit" label="&amp;modules.uixul.bo.actions.Edit;" />
-		<action name="delete" permission="Delete" icon="delete2" label="&amp;modules.uixul.bo.actions.Delete;" />
-		<action name="openFolder" icon="folder_into" label="&amp;modules.uixul.bo.actions.OpenFolder;" />
+		<action name="edit" single="true" permission="Load" icon="edit" label="&amp;modules.uixul.bo.actions.Edit;" />
+		<action name="delete" permission="Delete" icon="delete" label="&amp;modules.uixul.bo.actions.Delete;" />
+		<action name="openFolder" icon="open-folder" label="&amp;modules.uixul.bo.actions.OpenFolder;" />
 	</actions>
 </perspective>
