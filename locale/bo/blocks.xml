@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<localization>
-	<entity id="ad">
-		<locale lang="fr">affichage d'une publicité Google AdSense</locale>
-		<locale lang="en">Google AdSense display block</locale>
-	</entity>
-</localization>

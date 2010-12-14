@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.adsense.document.ad" lcid="en_GB">
+  <key id="edition-form-title">properties of an Google AdSense banner</key>
+  <key id="document-name">Google AdSense banner</key>
+  <key id="label">label</key>
+  <key id="label-help">label of a banner for backoffice use only.</key>
+  <key id="code">code</key>
+  <key id="code-help">unique code to identify a banner when it is integrated with a page template or a display block.</key>
+  <key id="script">Google AdSense script</key>
+  <key id="script-help">Google AdSense including &lt;script&gt; tags.</key>
+</i18n>

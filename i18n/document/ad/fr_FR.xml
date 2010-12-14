@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.adsense.document.ad" lcid="fr_FR">
+  <key id="edition-form-title">propriétés d'une publicité Google AdSense</key>
+  <key id="document-name">publicité Google AdSense</key>
+  <key id="label">libellé</key>
+  <key id="label-help">libellé de la publicité, utilisé en backoffice uniquement.</key>
+  <key id="code">identifiant</key>
+  <key id="code-help">identifiant unique permettant de faire référence à la publicité lors de son intégration dans un gabarit de page ou d'un bloc d'affichage.</key>
+  <key id="script">script Google AdSense</key>
+  <key id="script-help">script Google AdSense incluant les balises &lt;script&gt;.</key>
+</i18n>

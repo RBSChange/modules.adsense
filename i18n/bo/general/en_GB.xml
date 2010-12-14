@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.adsense.bo.general" lcid="en_GB">
+  <key id="module-name">Google AdSense</key>
+  <key id="tree-root-name">Google AdSense</key>
+  <key id="system-folder-name">Google AdSense</key>
+  <key id="invalidcode">the code can not contain any whitespace!</key>
+</i18n>
